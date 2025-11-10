@@ -5,20 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JL Home Designs - Quality Custom House Plans</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="container">
-                <h1>JL Home Designs</h1>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
+        <nav></nav>
     </header>
 
     <section id="hero">
@@ -49,20 +40,22 @@
         </div>
     </section>
 
-    <section id="compare-designs">
+    <section id="photo-viewer">
         <div class="container">
-            <h3>See the Difference in Quality & Detail</h3>
-            <div class="design-comparison">
-                <div class="design-card">
-                    <h4>Classic Charm</h4>
-                    <img src="images/OldschoolDen-Cropped.png" alt="Oldschool Den Design">
-                    <p>Timeless elegance with traditional layouts.</p>
-                </div>
-                <div class="design-card">
-                    <h4>Modern Comfort</h4>
-                    <img src="images/NewDen.png" alt="New Den Design">
-                    <p>Open spaces and contemporary features for today's lifestyle.</p>
-                </div>
+            <h3>Explore Our Design Portfolio</h3>
+            <div class="viewer-main">
+                <img src="images/OldschoolDen-Cropped.png" alt="Current Design" id="main-photo">
+                <button class="arrow left-arrow" id="prev-btn">&#10094;</button>
+                <button class="arrow right-arrow" id="next-btn">&#10095;</button>
+            </div>
+            <div class="viewer-thumbnails" id="thumbnails">
+                <img src="images/OldschoolDen-Cropped.png" alt="Oldschool Den" class="thumbnail active">
+                <img src="images/NewDen.png" alt="New Den" class="thumbnail">
+                <img src="images/JapandiStyle.png" alt="Japandi Style" class="thumbnail">
+                <img src="images/BohemianDesign.png" alt="Bohemian Design" class="thumbnail">
+                <img src="images/MidCenturyModern.png" alt="Mid-Century Modern" class="thumbnail">
+                <img src="images/Minimalist.png" alt="Minimalist Design" class="thumbnail">
+                <img src="images/ModernFarmhouse.png" alt="Modern Farmhouse" class="thumbnail">
             </div>
         </div>
     </section>
@@ -72,5 +65,6 @@
             <p>&copy; 2025 JL Home Designs. All rights reserved.</p>
         </div>
     </footer>
+    <script src="js/navigation.js" defer></script>
 </body>
 </html>
