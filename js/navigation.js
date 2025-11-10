@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="dropdown-content">
                         <a href="house-plan-barton.html">The Barton Plan</a>
                         <a href="house-plan-brown.html">The Brown Plan</a>
+                        <a href="house-plan-stanton.html">The Stanton Plan</a>
                     </div>
                 </li>
                 <li><a href="about.html">About Us</a></li>
