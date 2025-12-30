@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <a href="house-plan-chynoweth.html">The Chynoweth Plan</a>
                         <a href="house-plan-mehew.html">The Mehew Plan</a>
                         <a href="house-plan-pinales.html">The Pinales Plan</a>
+                        <a href="house-plan-pinales.html">The Pinales Plan</a>
+                        <a href="house-plan-lacayo.html">The Lacayo Plan</a>
                         <a href="house-plan-custom.html">Custom Plans</a>
                     </div>
                 </li>
