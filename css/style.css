@@ -287,6 +287,21 @@ header a:hover {
     font-size: 1.1em;
 }
 
+.about-image-banner {
+    background-color: #eef4f9; /* A nice light background color */
+    padding: 30px 0;
+    text-align: center;
+}
+
+.about-image-banner .about-image {
+    max-width: 44%; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 #about-content {
     padding: 40px 0;
     background: #ffffff;
@@ -294,6 +309,10 @@ header a:hover {
 
 .about-section {
     margin-bottom: 30px;
+    padding: 20px; /* Added internal padding */
+    background: #f9f9f9; /* Added a subtle background for visual separation */
+    border-radius: 8px; /* Added rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Added a subtle shadow */
 }
 
 .about-section h3 {
