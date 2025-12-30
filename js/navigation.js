@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
         <div class="container">
-            <h1>JL Home Designs</h1>
+            <h1>JL Custom Home Plans</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
