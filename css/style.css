@@ -295,6 +295,7 @@ header a:hover {
 
 .about-image-banner .about-image {
     max-width: 44%; /* Adjust size as needed */
+    max-height: 400px;
     height: auto;
     display: block;
     margin: 0 auto; /* Center the image */
